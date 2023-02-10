@@ -10,4 +10,8 @@ First, it sends a GET request to the URL using the requests.get function. If the
 Next, the code creates the specified save directory if it doesn't already exist. Then, it loops over each image and downloads the image by sending another GET request to the image URL and writing the image data to disk. The images are saved with filenames in the format image_{i}.{format}, where i is the index of the image and format is the specified image format (e.g. png).
 If the initial GET request to the URL fails, the code outputs a message indicating that it failed to fetch the URL, along with the status code returned by the request.
 
+
+-----Budget Calculator-----
+This code uses Streamlit to create a web page with inputs for adding income and expenses, and displays the current balance and list of transactions. You can run this code using the Streamlit command-line tool to start a local web server, and the web page will be accessible in your web browser.
+
 ---------------------
