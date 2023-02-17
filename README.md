@@ -14,4 +14,9 @@ If the initial GET request to the URL fails, the code outputs a message indicati
 -----Budget Calculator-----
 This code uses Streamlit to create a web page with inputs for adding income and expenses, and displays the current balance and list of transactions. You can run this code using the Streamlit command-line tool to start a local web server, and the web page will be accessible in your web browser.
 
+
+-------Digital clock-------
+This Python code creates an impressive digital clock using the tkinter module for creating the graphical user interface and the datetime module for getting the current time. The clock displays the live time in a 24-hour format and includes some cool features such as the ability to toggle the display of seconds and milliseconds. The clock is updated every 100 milliseconds using the after method, and is displayed in a large font on a black background. The clock can be run as a standalone application, and is designed to be customizable and extensible for further development.
+
+
 ---------------------
